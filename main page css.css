@@ -1,0 +1,100 @@
+
+
+body {
+    
+background-color: aqua;
+
+
+}
+
+#AL-mut {
+    border: 10px solid black;
+    width: 80% ;
+    height: 15%;
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    top :10% ;
+    left: 10%;
+    right: 10%;
+
+}
+
+#welcomeText {
+    border: 10px solid black;
+    width: 60% ;
+    height: 15%;
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    top :35% ;
+    left: 20%;
+    right: 20%;
+
+}
+
+#BottonEnter{
+    border: 10px solid black;
+    width: 20% ;
+    height: 10%;
+    background-color: rgb(255, 0, 0);
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    top :80% ;
+    left: 40%;
+    right: 40%;
+}
+
+#BottonEnter:hover{
+    background-color: rgb(13, 0, 255);
+}
+
+#img1 {
+    border: 10px solid black;
+    width: 20% ;
+    height: 20%;
+    color: black;
+    position: fixed;
+    top :55% ;
+    left: 4%;
+}
+
+#img2 {
+    border: 10px solid black;
+    width: 20% ;
+    height: 20%;
+    color: black;
+    position: fixed;
+    top :55% ;
+    left: 28%;
+}
+
+#img3 {
+    border: 10px solid black;
+    width: 20% ;
+    height: 20%;
+    color: black;
+    position: fixed;
+    top :55% ;
+    left: 52%;
+}
+
+#img4 {
+    border: 10px solid black;
+    width: 20% ;
+    height: 20%;
+    color: black;
+    position: fixed;
+    top :55% ;
+    left: 76%;
+}
+
