@@ -3,5 +3,5 @@
 BottonEnter.onclick=tran1;
 
 function tran1(){
-    window.open("loginPageHtml.html","_self");
+    window.open("/LoginPage.html","_self");
 }
