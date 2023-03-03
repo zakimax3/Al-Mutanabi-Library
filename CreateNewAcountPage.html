@@ -8,6 +8,62 @@
     </head>
 
     <body>
+            <div id="BackDiv">
+                <div id="AddressDiv">
+                    <p>Create New Account</p>
+                </div>
+                <div id="ContentDiv">
+
+                    <p id="FillPlease">Please Fill The Following Fields</p>
+
+                    <form >
+
+                        <label id="FNameLabel"  for="FNameInput" >First Name </label> 
+                        <input type="text" id="FNameInput" placeholder="Insert Your First Name" >
+
+                        <label id="LNameLabel"  for="LNameInput" >Last Name </label> 
+                        <input type="text" id="LNameInput" placeholder="Insert Your Last Name" >
+
+                        <label id="UNameLabel"  for="UNameInput" >UserName </label> 
+                        <input type="text" id="UNameInput" placeholder="Insert Your UserName" >
+                        <p id="CheckerUName"></p>
+
+                        <label id="EmailLabel"  for="EmailInput" >Email </label> 
+                        <input type="text" id="EmailInput" placeholder="Insert Your Email" >
+                        <p id="CheckerEmail"></p>
+
+                        <label id="BirthDayLabel"  for="BirthDayInput" >BirthDay </label> 
+                        <input type="date" id="BirthDayInput" placeholder="Insert Your BirthDay" >
+
+                        <label id="CountryLabel"  for="CountryInput" >Country </label> 
+                        <input list="CountryInput" >
+                            <datalist id="CountryInput" placeholder="Insert Your Country" >
+                                <option value="IRAQ" >IRAQ</option>
+                                <option value="USA" >USA</option>
+                                <option value="TURKEY" >TURKEY</option>
+                                <option value="CHINA" >CHINA</option>
+                                <option value="NONEE" >NONEE</option>
+                            </datalist>
+
+
+                        <label id="GenderLabel"  for="GenderInput" >Gender </label> 
+                        <input list="GenderInput" >
+                            <datalist id="GenderInput" placeholder="Insert Your Gender" >
+                                <option value="MALE" >MALE</option>
+                                <option value="FEMALE" >FEMALE</option>
+                                <option value="NONEEE" >NONEEE</option>
+                            </datalist>
+
+                        
+                        <input type ="checkbox" id="TermAgree" value="true"/> Agree To The Terms 
+
+                    </form>
+
+                    <button id="SignBut" >Sign Up</button>
+
+
+                </div>
+            </div>
         
 
         <script src="/CreateNewAcountPage.js"></script>
