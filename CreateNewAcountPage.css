@@ -1,9 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: rebeccapurple;
+}
+
 body {
     height: 1500px;
     background-color:rgb(11, 96, 95);
     padding: 0;
     margin: 0;
-    overflow:scroll;
 }
 
 
@@ -11,13 +31,12 @@ body {
     width: 80%;
     height: 1500px;
     border: 10px solid rgb(136, 194, 9);
-    position: fixed;
+    position:relative;
     top : 5%;
     left :10% ;
     background-color: darkkhaki;
     padding: 0;
     margin: 0;
-    overflow:scroll;
 }
 
 #AddressDiv{
@@ -35,7 +54,7 @@ text-align: center;
     background-color: brown;
     border: 10px solid rgb(136,255,255);
     font-size: 36px;
-    position: fixed;
+    position: absolute;
     top : 45%;
     left :15% ;
 }
@@ -46,7 +65,7 @@ text-align: center;
     background-color: brown;
     border: 10px solid rgb(136,255,255);
     font-size: 36px;
-    position: fixed;
+    position: absolute;
     top : 70%;
     left :15% ;
 }
@@ -57,7 +76,7 @@ text-align: center;
     height: 5%;
     border: 10px solid rgb(136,255,255);
     font-size: 20px;
-    position: fixed;
+    position: absolute;
     top : 70%;
     left :45% ;
 }
@@ -69,7 +88,7 @@ text-align: center;
     background-color: brown;
     border: 10px solid rgb(136,255,255);
     font-size: 36px;
-    position: fixed;
+    position: absolute;
     top : 80%;
     left :15% ;
 }
@@ -80,7 +99,7 @@ text-align: center;
     height: 5%;
     border: 10px solid rgb(136,255,255);
     font-size: 20px;
-    position: fixed;
+    position: absolute;
     top : 80%;
     left :45% ;
 }
@@ -91,7 +110,7 @@ text-align: center;
     background-color: brown;
     border: 10px solid rgb(136,255,255);
     font-size: 36px;
-    position: fixed;
+    position: absolute;
     top : 90%;
     left :15% ;
 }
@@ -102,7 +121,7 @@ text-align: center;
     height: 5%;
     border: 10px solid rgb(136,255,255);
     font-size: 20px;
-    position: fixed;
+    position: absolute;
     top : 90%;
     left :45% ;
 }
@@ -113,7 +132,7 @@ text-align: center;
     background-color: rgb(255, 0, 0);
     border: 10px solid rgb(136,255,255);
     font-size: 36px;
-    position: fixed;
+    position: absolute;
     top : 86%;
     left :70% ;
 }
@@ -132,7 +151,7 @@ text-align: center;
     background-color: brown;
     border: 10px solid rgb(136,255,255);
     font-size: 36px;
-    position: fixed;
+    position: absolute;
     top : 100%;
     left :15% ;
 }
@@ -143,7 +162,7 @@ text-align: center;
     height: 5%;
     border: 10px solid rgb(136,255,255);
     font-size: 20px;
-    position: fixed;
+    position: absolute;
     top : 100%;
     left :45% ;
 }
@@ -154,7 +173,7 @@ text-align: center;
     background-color: rgb(255, 0, 0);
     border: 10px solid rgb(136,255,255);
     font-size: 36px;
-    position: fixed;
+    position: absolute;
     top : 86%;
     left :70% ;
 }
@@ -171,7 +190,7 @@ text-align: center;
     background-color: brown;
     border: 10px solid rgb(136,255,255);
     font-size: 36px;
-    position: fixed;
+    position: absolute;
     top : 100%;
     left :15% ;
 }
@@ -182,7 +201,7 @@ text-align: center;
     height: 5%;
     border: 10px solid rgb(136,255,255);
     font-size: 20px;
-    position: fixed;
+    position: absolute;
     top : 100%;
     left :45% ;
 }
@@ -200,7 +219,7 @@ text-align: center;
     background-color: brown;
     border: 10px solid rgb(136,255,255);
     font-size: 36px;
-    position: fixed;
+    position: absolute;
     top : 100%;
     left :15% ;
 }
@@ -211,7 +230,7 @@ text-align: center;
     height: 5%;
     border: 10px solid rgb(136,255,255);
     font-size: 20px;
-    position: fixed;
+    position: absolute;
     top : 100%;
     left :45% ;
 }
@@ -225,7 +244,7 @@ text-align: center;
     background-color: brown;
     border: 10px solid rgb(136,255,255);
     font-size: 36px;
-    position: fixed;
+    position: absolute;
     top : 100%;
     left :15% ;
 }
@@ -236,7 +255,7 @@ text-align: center;
     height: 5%;
     border: 10px solid rgb(136,255,255);
     font-size: 20px;
-    position: fixed;
+    position: absolute;
     top : 100%;
     left :45% ;
 }
@@ -244,7 +263,7 @@ text-align: center;
 
 #TermAgree{
 
-
+background-color: aliceblue;
 
 
 }
@@ -252,6 +271,7 @@ text-align: center;
 
 #SignBut{
 
-    
+    background-color: aliceblue;
+
 
 }
